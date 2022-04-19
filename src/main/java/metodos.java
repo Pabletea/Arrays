@@ -9,7 +9,14 @@ public class metodos {
         }
     }
     public static void comparar(int num[],int num2[]){
-
+        int cont=0;
+        for(int cont2=0;cont2<10;cont2++){
+            cont=1;
+            for(int cont3=0;cont3<10;cont3++){
+                if(num[cont2] == num[cont3])
+                    num2[cont2]=cont++;
+            }
+        }
     }
     public static void imprimir(int num[],int num2[]){
 
